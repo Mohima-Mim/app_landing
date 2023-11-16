@@ -1,0 +1,119 @@
+/* ----------------Banner_part---------------- */
+#banner_part{
+    background: url(../images/opps_part_bg.png) no-repeat center / cover;
+    margin-bottom: 89px;
+}
+#banner_part .container h4{
+    color: #FFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 60px */
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    padding-top: 160px;
+}
+#banner_part .container .text{
+    display: flex;
+}
+#banner_part .container .text p{
+    color: #B3B1B7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    padding-right: 12px;
+    position: relative;
+    margin-bottom: 190px;
+}
+#banner_part .container .text .home::after{
+    content: ' ';
+    width: 4px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* ----------------Banner_Part---------------- */
+
+
+
+/* ----------------oops_Part---------------- */
+#oops_part{
+    position: relative;
+}
+#oops_part .bg_elements_img {
+	position: absolute;
+	top: 36.5%;
+	right: 3%;
+}
+#oops_part .container .row .col-lg-5{
+    padding: 106px 0 290px;
+}
+#oops_part .container .row .col-lg-5 h2{
+    color: var(--titles-color, #000);
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 88px */
+    text-transform: capitalize;
+    padding-bottom: 12px;
+}
+#oops_part .container .row .col-lg-5 h3{
+    color: var(--titles-color, #000);
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 50px */
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+#oops_part .container .row .col-lg-5 p{
+    color: var(--text-color, #888);
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 30.8px */
+    padding-bottom: 20px;
+}
+#oops_part .container .row .col-lg-5 .input_part{
+    position: relative;
+}
+#oops_part .container .row .col-lg-5 .input_part input{
+    border-radius: 50px;
+    border: 1px solid #E6EBFC;
+    background: #FFF;
+    width: 457px;
+    height: 60px;
+    outline: 0;
+    color: #B3B1B7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 23.8px */
+    padding: 18px 30px;
+}
+#oops_part .container .row .col-lg-5 .input_part i{
+    position: absolute;
+    left: 415px;
+    top: 50%;
+    transform: translatey(-50%);
+    color: #B3B1B7;
+    font-size: 20px;
+}
+#oops_part .container .row .col-lg-7 .images{
+    width: 607px;
+}
+#oops_part .container .row .col-lg-7 .images img{
+    width: 100%;
+}
+/* ----------------Oops_Part---------------- */
